@@ -14,3 +14,5 @@ Use Cases:
 - Fantasy Football: Fantasy football enthusiasts can leverage the app to make informed player selections for their fantasy teams. (FPL)
 
 SCOUT ONE ZM is a versatile tool that empowers football professionals and enthusiasts with data-driven insights to enhance their understanding of the game and the players who make it exciting.
+
+Note: Only Outfielders from Top 5 Leagues with >1080 Minutes Played in 2022/23 Season are Included for Selection.
