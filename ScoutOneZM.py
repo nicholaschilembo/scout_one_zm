@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 from faker import Faker
 import pandas as pd
 import numpy as np
+import io
+
+# Enable Matplotlib support in Streamlit
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Create a Faker instance for generating random data
 fake = Faker()
