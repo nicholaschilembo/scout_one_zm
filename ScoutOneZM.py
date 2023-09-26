@@ -3,9 +3,9 @@ import streamlit as st
 import random
 import pandas as pd
 import numpy as np
-import matplotlib
-matplotlib.use("Agg")  # Use the "Agg" backend (Agg is a non-interactive backend)
-import matplotlib.pyplot as plt
+from matplotlib import use  # Use the "Agg" backend (Agg is a non-interactive backend)
+use.("Agg")
+from matplotlib import pyplot as plt
 
 # Enable Matplotlib support in Streamlit
 st.set_option('deprecation.showPyplotGlobalUse', False)
