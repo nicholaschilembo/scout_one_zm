@@ -1,10 +1,9 @@
-# Import Streamlit library
 import streamlit as st
 import random
 import pandas as pd
 import numpy as np
-from matplotlib import use  # Use the "Agg" backend (Agg is a non-interactive backend)
-use.("Agg")
+import matplotlib
+matplotlib.use("Agg")  # Use the "Agg" backend (Agg is a non-interactive backend)
 from matplotlib import pyplot as plt
 
 # Enable Matplotlib support in Streamlit
