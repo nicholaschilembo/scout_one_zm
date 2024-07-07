@@ -1,4 +1,4 @@
-Faker
+faker
 streamlit
 matplotlib
 pandas
